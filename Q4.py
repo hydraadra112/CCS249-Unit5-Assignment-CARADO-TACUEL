@@ -51,7 +51,7 @@ y = [1, 0, 1, 2, 2]
 clf = LogisticRegression()
 clf.fit(X, y)
 
-# Predict on same data (again, just demo)
+# Predict on same data
 predictions = clf.predict(X)
 
 print("Predicted classes for the documents:")
