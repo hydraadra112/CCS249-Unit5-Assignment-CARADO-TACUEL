@@ -10,9 +10,7 @@
 # b. Term-document matrix using TF-IDF weights.
 
 from utils import get_topic, preprocess
-from term_frequency import compute_tf
-from tf_idf import compute_idf, compute_tfidf
-from cosine_similarity import cosine_similarity
+from compute import compute_tf, compute_idf, compute_tfidf, cosine_similarity
 
 CHARACTERS_COUNT = 1000
 
