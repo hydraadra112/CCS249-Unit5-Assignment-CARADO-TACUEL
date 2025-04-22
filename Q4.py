@@ -13,11 +13,11 @@ We try to use Logreg to predict them after we have word2vec'd them.
 """
 
 CHARACTERS_COUNT = 1000
-napoleon = get_topic('Napoleon', CHARACTERS_COUNT)
-oppenheimer = get_topic('Robert J. Oppenheimer', CHARACTERS_COUNT)
-alexander = get_topic('Alexander_the_Great', CHARACTERS_COUNT)
-marcus = get_topic('Marcus_Aurelius', CHARACTERS_COUNT)
-winston = get_topic('Winston_Churchill', CHARACTERS_COUNT)
+napoleon = get_topic('Napoleon', CHARACTERS_COUNT) # Document 1
+oppenheimer = get_topic('Robert J. Oppenheimer', CHARACTERS_COUNT) # Document 2
+alexander = get_topic('Alexander_the_Great', CHARACTERS_COUNT) # Document 3
+marcus = get_topic('Marcus_Aurelius', CHARACTERS_COUNT) # Document 4
+winston = get_topic('Winston_Churchill', CHARACTERS_COUNT) # Document 5
 
 documents = [napoleon, oppenheimer, alexander, marcus, winston]
 
