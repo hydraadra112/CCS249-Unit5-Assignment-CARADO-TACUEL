@@ -1,7 +1,7 @@
 import wikipedia
-def get_topic(topic: str, word_count: int):
-    """ Returns a specified topic from wikipedia of `word_count` words """
+def get_topic(topic: str, character_count: int):
+    """ Returns a specified topic from wikipedia of `character_count` words """
     page = wikipedia.page(topic)
-    topic = page.content[:word_count]
+    topic = page.content[:character_count]
     
     return topic
