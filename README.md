@@ -4,7 +4,7 @@ A repository for Unit 5 Assignment for our NLP course
 The topics used in this assignment are the following:
 
 - [Napoleon](https://en.wikipedia.org/wiki/Napoleon)
-- [Donald Duck](https://en.wikipedia.org/wiki/Donald_Duck)
-- [Mickey Mouse](https://en.wikipedia.org/wiki/Mickey_Mouse)
-- [Minnie Mouse](https://en.wikipedia.org/wiki/Minnie_Mouse)
-- [Tweety Bird](https://en.wikipedia.org/wiki/Tweety)
+- [Robert J. Oppenheimer](https://en.wikipedia.org/wiki/J._Robert_Oppenheimer)
+- [Alexander The Great](https://en.wikipedia.org/wiki/Alexander_the_Great)
+- [Marcus Aurelius](https://en.wikipedia.org/wiki/Marcus_Aurelius)
+- [Winston Churchill](https://en.wikipedia.org/wiki/Winston_Churchill)
