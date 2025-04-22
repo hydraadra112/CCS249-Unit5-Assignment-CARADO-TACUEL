@@ -31,3 +31,7 @@ def preprocess(corpus: str) -> list[str]:
     cleaned_tokens = [token for token in tokens if token not in stop_words]
     
     return cleaned_tokens
+
+def sort_dict_by_value_desc(my_dict: dict) -> dict:
+    """Sorts the dictionary by value in descending order"""
+    return dict(sorted(my_dict.items(), key=lambda item: item[1], reverse=True))
