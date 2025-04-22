@@ -48,6 +48,9 @@ for i, tfidf_vector in enumerate(tfidf_vectors):
     print(f"TF-IDF Vector of Document {i+1}: {sort_dict_by_value_desc(tfidf_vector)}\n\n")
 
 # Compute the Cosine Similarity between the first two documents
-similarity = cosine_similarity(tfidf_vectors[0], tfidf_vectors[1], vocabulary)
-print("\nCosine Similarity between Document 1 and Document 2:")
-print(similarity)
+print("\n\nPairwise Cosine Similarities Between All Documents:\n")
+num_docs = len(tfidf_vectors)
+for i in range(num_docs):
+    for j in range(i + 1, num_docs):
+        sim = cosine_similarity(tfidf_vectors[i], tfidf_vectors[j], vocabulary)
+        print(f"Cosine Similarity between Document {i+1} and Document {j+1}: {sim}")
