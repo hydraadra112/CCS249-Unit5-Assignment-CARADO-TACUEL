@@ -12,7 +12,7 @@ CHARACTERS_COUNT = 1000
 
 # Topics
 napoleon = get_topic('Napoleon', CHARACTERS_COUNT)
-oppenheimer = get_topic('Robert J. Oppenheimer', CHARACTERS_COUNT)
+oppenheimer = get_topic('J.R. Oppenheimer', CHARACTERS_COUNT)
 alexander = get_topic('Alexander the Great', CHARACTERS_COUNT)
 marcus = get_topic('Marcus Aurelius', CHARACTERS_COUNT)
 winston = get_topic('Winston Churchill', CHARACTERS_COUNT)

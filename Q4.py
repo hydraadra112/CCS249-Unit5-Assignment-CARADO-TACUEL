@@ -19,7 +19,7 @@ We try to use Logreg to predict them after we have word2vec'd them.
 
 CHARACTERS_COUNT = 1000
 napoleon = get_topic('Napoleon', CHARACTERS_COUNT) # Document 1
-oppenheimer = get_topic('J. Robert Oppenheimer', CHARACTERS_COUNT) # Document 2
+oppenheimer = get_topic('J.R. Oppenheimer', CHARACTERS_COUNT) # Document 2
 alexander = get_topic('Alexander_the_Great', CHARACTERS_COUNT) # Document 3
 marcus = get_topic('Marcus_Aurelius', CHARACTERS_COUNT) # Document 4
 winston = get_topic('Winston_Churchill', CHARACTERS_COUNT) # Document 5
